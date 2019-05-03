@@ -1,2 +1,2 @@
-# hexagonal-arcitect
-This is implementation of haxagonal arcitecture in go
+# Hexagonal Arcitecture
+This repository is implementation of haxagonal arcitecture in go
