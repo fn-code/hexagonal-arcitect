@@ -1,10 +1,12 @@
 package storage
 
+import "io"
+
 //Database service interface
 type Database interface {
 	UsersService
 	DeviceService
-	Close() error
+	io.Closer
 }
 
 // UsersService is users interface
